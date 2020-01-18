@@ -1,0 +1,20 @@
+{
+  "name": "qa-test",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "testcafe chrome ui-tests/tests/ -e",
+    "ipad": "testcafe chrome:emulation:device=iPad ui-tests/tests/  -e",
+    "test-chrome-headless": "testcafe 'chrome:headless' ui-tests/tests/ -e",
+    "test-firefox-headless": "testcafe 'firefox:headless' ui-tests/tests/ -e"
+  },
+  "author": "Wioletta Kisielewicz <wioletta.kisielewicz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.1",
+    "testcafe": "^1.7.1"
+  }
+}
