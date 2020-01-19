@@ -21,6 +21,10 @@ Acceptance front end testing for:
 
 ### Additional information
 - For generating test data there is added faker.js: https://github.com/Marak/faker.js
-- Please notice tests are running with `-e` option witch means `--skip-js-errors`, since Dribbble website returns some errors in console and they are tracked by TestCafe, for our purposes we need to skip them
+- Please notice tests are running with `-e` option witch means `--skip-js-errors`, since Dribbble website returns some errors in console and they are tracked by TestCafe, for our purposes we need to skip them, please see exmaple below:
+
+`A JavaScript error occurred on "https://dribbble.com/talent/candidate".
+Repeat test actions in the browser and check the console for errors.
+If you see this error, it means that the tested website caused it. You can fix it or disable tracking JavaScript errors in TestCafe. To do the latter, enable the "--skip-js-errors" option.`
 
 
