@@ -20,4 +20,7 @@ Acceptance front end testing for:
 - To run all tests on firefox with headless option execute `npm run test-firefox-headless` command inside project
 
 ### Additional information
-For generating test data there is added faker.js: https://github.com/Marak/faker.js
+- For generating test data there is added faker.js: https://github.com/Marak/faker.js
+- Please notice tests are running with `-e` option witch means `--skip-js-errors`, since Dribbble website returns some errors in console and they are tracked by TestCafe, for our purposes we need to skip them
+
+
