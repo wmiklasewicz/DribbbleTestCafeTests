@@ -85,7 +85,6 @@ test('should upload and delete avatar', async t =>{
    ])
    await t.click(accountPage.uploadNowButton);
    await t.expect(accountPage.awatarMsg.withText('Upload in progress. Refresh in a few moments to see your new avatar.')).ok();
-   await t.eval(() => location.reload(true));
    await t.setNativeDialogHandler(() => true);
    await t.click(accountPage.deleteAwatarButton);
    await t.expect(accountPage.awatarMsg.withText('Avatar deleted')).ok();
