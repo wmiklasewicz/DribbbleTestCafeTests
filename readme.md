@@ -2,7 +2,7 @@
 
 ## Getting the environment up
 1. If you don't have installed node.js, please install it from this page: https://nodejs.org/en/download/
-2. Clone repository this  `git clone https://github.com/wkisielewicz/DribbbleTestCafeTests.git`
+2. Clone this repositiry  `git clone https://github.com/wkisielewicz/DribbbleTestCafeTests.git`
 3. Run `npm install` commmand inside project
 
 ## Test Specification
