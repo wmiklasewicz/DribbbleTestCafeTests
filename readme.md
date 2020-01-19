@@ -18,3 +18,6 @@ Acceptance front end testing for:
 - To run tests job search functionality execute `npm run job-board-test`command inside inside project
 - To run all tests on chrome with headless option execute `npm run test-chrome-headless` command inside project
 - To run all tests on firefox with headless option execute `npm run test-firefox-headless` command inside project
+
+### Additional information
+For generating test data there is added faker.js: https://github.com/Marak/faker.js
