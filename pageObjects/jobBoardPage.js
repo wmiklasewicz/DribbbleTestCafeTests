@@ -21,7 +21,7 @@ const jobBoardPage = {
   remoteFriendlyButton:         $('#options > fieldset:nth-child(5) > label > div'),
   freelanceContractButton:      $('#options > fieldset:nth-child(7) > label > div'),
   firstOffer:                   $('#job-board-groups > ol:nth-child(1) > li:nth-child(1) > a > div.flex.mb20 > div > div.job-board-job-title.text-size-16.text-size-24-ns.lh-title.text-weight-700'),
-  firstOfferHeader:             $('#header > h1'),
+  firstOfferHeader:             $('h1'),
   learnMoreButton:              $('#content > div.job-board-container.m0auto.mt60-ns.flex-ns > div.job-board-talent > div > a.talent-btn.form-btn'),
   getHiredButton:               $('#wrap > nav > ul > li.nav-item.nav-item--current > a'),
   getProBusinessButton:         $('#content > div.job-board-container.m0auto.mt60-ns.flex-ns > div.job-board-filters > div.d-none.d-block-ns > a'),

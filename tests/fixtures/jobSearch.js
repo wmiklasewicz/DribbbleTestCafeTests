@@ -35,7 +35,7 @@ test('should contain header', async t => {
  test('check if offer click redirects you to right page', async t =>
  {
     const  checkFirstOffer = await jobBoardPage.getInnerTextOfFirstElement();
-    await t.click(jobBoardPage.firstOffer)
+    await t.click(jobBoardPage.firstOffer);
     await t.expect(jobBoardPage.firstOfferHeader.innerText).eql(checkFirstOffer);
  });
 
