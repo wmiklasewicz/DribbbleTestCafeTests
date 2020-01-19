@@ -30,7 +30,7 @@ test('should edit bio', async t => {
    await t.expect((accountPage.successMsg).exists).ok();
 });
 
-test('should select top specialties and add years of experience', async t => {
+test('should select top specialities and add years of experience', async t => {
    const experiencePickedAmount = await Selector(accountPage.dragableContainer).childElementCount;
    let i = 1;
    if (experiencePickedAmount>0)
