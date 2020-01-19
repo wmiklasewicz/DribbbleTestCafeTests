@@ -1,15 +1,16 @@
 {
-  "name": "qa-test",
+  "name": "dribbble-acceptance-tests",
   "version": "1.0.0",
   "description": "",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "testcafe chrome ui-tests/tests/ -e",
-    "ipad": "testcafe chrome:emulation:device=iPad ui-tests/tests/  -e",
-    "test-chrome-headless": "testcafe 'chrome:headless' ui-tests/tests/ -e",
-    "test-firefox-headless": "testcafe 'firefox:headless' ui-tests/tests/ -e"
+    "test": "testcafe chrome tests/fixtures -e",
+    "edit-account-test": "testcafe chrome tests/fixtures/editAccount.js -e",
+    "job-board-test": "testcafe chrome tests/fixtures/jobSearch.js -e",
+    "test-chrome-headless": "testcafe 'chrome:headless' chrome tests/fixtures -e",
+    "test-firefox-headless": "testcafe 'firefox:headless' chrome tests/fixtures -e"
   },
   "author": "Wioletta Kisielewicz <wioletta.kisielewicz@gmail.com>",
   "license": "MIT",
