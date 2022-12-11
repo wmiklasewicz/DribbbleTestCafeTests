@@ -15,7 +15,7 @@
   "author": "Wioletta Kisielewicz <wioletta.kisielewicz@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.1",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "testcafe": "^1.7.1"
   }
